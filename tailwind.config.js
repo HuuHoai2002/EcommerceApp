@@ -18,6 +18,7 @@ module.exports = {
         cbg: "#F2F0FF",
         cheading: "#1A0B5B",
         cbgcard: "#F6F7FB",
+        ccontent: "rgba(26, 11, 91, 0.3)",
       },
     },
   },

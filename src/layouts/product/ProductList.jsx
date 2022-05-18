@@ -12,7 +12,6 @@ const ProductList = () => {
         <ProductCard />
         <ProductCard />
         <ProductCard />
-        <ProductCard />
       </Grid>
     </Layout>
   );

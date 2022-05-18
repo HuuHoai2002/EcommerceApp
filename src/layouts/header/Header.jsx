@@ -1,9 +1,8 @@
-import React from "react";
 import { Link, NavLink, Outlet } from "react-router-dom";
 
-import { Logo } from "../../components/icons/index";
-import { Headeritems } from "../../utils/index";
-import { Search } from "../search/index";
+import { Logo } from "../../components/icons";
+import { Headeritems } from "../../utils";
+import { Search } from "../search";
 
 const Header = () => {
   const renderItems = () => {
@@ -24,7 +23,7 @@ const Header = () => {
     );
   };
   return (
-    <div className="w-full sticky top-0">
+    <div className="w-full sticky top-0 z-50 bg-white border-b border-cborder">
       <div className="py-5 max-w-[1177px] mx-auto flex items-center justify-between">
         <div className="flex items-center gap-x-[88px]">
           <Link to="/" className="pb-[3px] pl-[3px]">

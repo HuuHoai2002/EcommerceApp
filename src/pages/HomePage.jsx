@@ -1,10 +1,14 @@
-import React from "react";
-import { Banner } from "../layouts/banner/index";
+import { Banner } from "../layouts/banner";
+import { Preview } from "../layouts/preview";
+import { ProductList } from "../layouts/product";
 
 const HomePage = () => {
   return (
     <div className="home-page">
       <Banner />
+      <Preview>
+        <ProductList></ProductList>
+      </Preview>
     </div>
   );
 };

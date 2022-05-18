@@ -1,7 +1,7 @@
 import React, { Fragment, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
-import { Header } from "./layouts/header/index";
 import { Footer } from "./layouts/footer/index";
+import { Header } from "./layouts/header/index";
 
 const HomePage = React.lazy(() => import("./pages/HomePage"));
 const NotFound = React.lazy(() => import("./pages/NotFound"));

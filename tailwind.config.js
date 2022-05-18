@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       colors: {
         cpink: "#FB2E86",
+        cgreen: "#08D15F",
         cblue: "#3F509E",
         cnaviblue: "#151875",
         cpurple: "#7E33E0",
@@ -13,7 +14,10 @@ module.exports = {
         csubtext: "#F3F9FF",
         cpanton: "#E0D3F5",
         ctext: "#0D0E43",
-        cborder: "##E7E6EF",
+        cborder: "#E7E6EF",
+        cbg: "#F2F0FF",
+        cheading: "#1A0B5B",
+        cbgcard: "#F6F7FB",
       },
     },
   },

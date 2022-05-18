@@ -4,9 +4,15 @@
 
 @layer base {
   body {
-    @apply mx-auto min-h-screen;
+    @apply mx-auto min-h-screen max-w-[1600px];
   }
   html {
     font-family: "Noto Sans", sans-serif;
+  }
+}
+
+@layer components {
+  .use-shadow {
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
   }
 }
